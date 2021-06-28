@@ -131,5 +131,23 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
+    spec.dependency 'YYCategories'
+  spec.dependency 'SnapKit', '~> 5.0.0'
+  spec.dependency 'GONMarkupParser'
+  spec.dependency 'YYText'
+  spec.dependency 'XLPagerTabStrip', '~> 9.0'
+  spec.dependency 'pop', '~> 1.0'
+  spec.dependency 'HandyJSON', '~> 5.0.2'
+  spec.dependency 'LXMButtonImagePosition', '~> 1.2.0'
+  spec.dependency 'RxSwift', '6.2.0'
+  spec.dependency 'RxCocoa', '6.2.0'
+  spec.dependency 'FDFullscreenPopGesture', '1.1'
+  spec.dependency 'SCIndexView'
+  spec.dependency 'SwiftProtobuf','~> 1.0'
+  spec.dependency 'AFNetworking','4.0.1'
+  spec.dependency 'CocoaAsyncSocket', '~> 7.6.5'
+  spec.dependency 'MBProgressHUD', '~> 1.2.0'
+  spec.dependency 'WMDragView', '~> 1.0.1'
+  spec.dependency 'lottie-ios'
 
 end
